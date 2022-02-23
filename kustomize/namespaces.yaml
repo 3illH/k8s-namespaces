@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: argocd
+    app.kubernetes.io/name: monitoring
+    app.kubernetes.io/component: namespace
+  name: monitoring
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: argocd
+    app.kubernetes.io/name: starboard
+    app.kubernetes.io/component: namespace
+  name: starboard
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: argocd
+    app.kubernetes.io/name: dev
+    app.kubernetes.io/component: namespace
+  name: dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: argocd
+    app.kubernetes.io/name: starboard-system
+    app.kubernetes.io/component: namespace
+  name: starboard-system
