@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/3illH/gs-rest-service-pipeline.git
+    repoURL: https://github.com/3illH/k8s-namespaces
     path: kustomize
     targetRevision: HEAD
     kustomize: {}
